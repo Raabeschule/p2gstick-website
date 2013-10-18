@@ -103,6 +103,8 @@ header h2 {
   letter-spacing: 0;
 }
 
+.meta { font-size: 80%; }
+
 .inner {
   position: relative;
   width: 940px;
@@ -259,6 +261,9 @@ form {
   margin-bottom: 8px;
   color: #474747;
 } 
+
+.post-title { margin-bottom: 0px !important; }
+
 #main-content h2:before {
   content: "//";
   color: #9ddcff;
