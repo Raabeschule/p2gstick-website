@@ -1,0 +1,7 @@
+{% include header.html %}
+<h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
+by {{ page.author }} on {{ page.date| date_to_long_string }}
+
+<p>{{ content }}</p>
+<p>Tags: {{ page.tags }}</p>
+{% include footer.html %}
